@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F3617992A1789B50074DA9C /* SpotifyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3617982A1789B50074DA9C /* SpotifyApp.swift */; };
+		3F36179B2A1789B50074DA9C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F36179A2A1789B50074DA9C /* ContentView.swift */; };
+		3F36179D2A1789B70074DA9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F36179C2A1789B70074DA9C /* Assets.xcassets */; };
+		3F3617A02A1789B70074DA9C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F36179F2A1789B70074DA9C /* Preview Assets.xcassets */; };
+		3F3617A72A178A000074DA9C /* HowToSignUpPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3617A62A178A000074DA9C /* HowToSignUpPage.swift */; };
+		3F3617AC2A178FD20074DA9C /* FaceBookButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3617AB2A178FD20074DA9C /* FaceBookButton.swift */; };
+		3F3617AE2A17900E0074DA9C /* AppleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3617AD2A17900E0074DA9C /* AppleButton.swift */; };
+		3F3617B02A1790390074DA9C /* GoogleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3617AF2A1790390074DA9C /* GoogleButton.swift */; };
+		3F3617B42A17939E0074DA9C /* SignUpEmail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3617B32A17939E0074DA9C /* SignUpEmail.swift */; };
+		3F3617B62A179C080074DA9C /* PasswordPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3617B52A179C080074DA9C /* PasswordPage.swift */; };
+		3F3617B92A179F400074DA9C /* BirthDayPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3617B82A179F400074DA9C /* BirthDayPage.swift */; };
+		3F3617BD2A17A57B0074DA9C /* AgreemintPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3617BC2A17A57B0074DA9C /* AgreemintPage.swift */; };
+		3F3617BF2A17A9700074DA9C /* CheckboxToggleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3617BE2A17A9700074DA9C /* CheckboxToggleStyle.swift */; };
+		3F3617C12A17AC190074DA9C /* ChooseArtistPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3617C02A17AC190074DA9C /* ChooseArtistPage.swift */; };
+		3F3617C32A17FFBC0074DA9C /* NotificationPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3617C22A17FFBC0074DA9C /* NotificationPage.swift */; };
+		3F3617C52A1803F00074DA9C /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3617C42A1803F00074DA9C /* HomePage.swift */; };
+		3F3617C82A1819140074DA9C /* ShowImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3617C72A1819140074DA9C /* ShowImage.swift */; };
+		3F3617CA2A1821600074DA9C /* MyTapBare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3617C92A1821600074DA9C /* MyTapBare.swift */; };
+		3F3617CC2A1821C80074DA9C /* SearchHomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3617CB2A1821C80074DA9C /* SearchHomePage.swift */; };
+		3F3617CE2A18264D0074DA9C /* SettingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3617CD2A18264D0074DA9C /* SettingPage.swift */; };
+		3F3617D02A182C680074DA9C /* MyMusicPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3617CF2A182C670074DA9C /* MyMusicPage.swift */; };
+		3F682E242A19D54400B92CAE /* SearchLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F682E232A19D54400B92CAE /* SearchLabel.swift */; };
+		3F682E262A19D9B400B92CAE /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F682E252A19D9B400B92CAE /* ImagePicker.swift */; };
+		3F682E282A19DAE500B92CAE /* ShowImageProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F682E272A19DAE500B92CAE /* ShowImageProfile.swift */; };
+		3F682E2A2A19E28400B92CAE /* LogInPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F682E292A19E28400B92CAE /* LogInPage.swift */; };
+		3F682E2D2A19E56100B92CAE /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 3F682E2C2A19E56100B92CAE /* FirebaseAuth */; };
+		3F682E2F2A19E56100B92CAE /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 3F682E2E2A19E56100B92CAE /* FirebaseFirestore */; };
+		3FE346C62A18DC3F009E7171 /* MusicPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE346C52A18DC3F009E7171 /* MusicPage.swift */; };
+		3FE346C82A18E629009E7171 /* FirstSongPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE346C72A18E629009E7171 /* FirstSongPage.swift */; };
+		3FE346CA2A18E7CF009E7171 /* PlayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE346C92A18E7CF009E7171 /* PlayButton.swift */; };
+		3FE346CE2A18F632009E7171 /* MyplayFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE346CD2A18F632009E7171 /* MyplayFunction.swift */; };
+		3FE346D12A18F6E5009E7171 /* MyStopFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE346D02A18F6E5009E7171 /* MyStopFunction.swift */; };
+		3FE346D32A19046C009E7171 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3FE346D22A19046C009E7171 /* GoogleService-Info.plist */; };
+		3FE346DA2A1907EE009E7171 /* LoginFunctons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE346D92A1907EE009E7171 /* LoginFunctons.swift */; };
+		3FE346DC2A19080C009E7171 /* SignUpFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE346DB2A19080C009E7171 /* SignUpFunction.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F3617952A1789B50074DA9C /* Spotify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spotify.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F3617982A1789B50074DA9C /* SpotifyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyApp.swift; sourceTree = "<group>"; };
+		3F36179A2A1789B50074DA9C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3F36179C2A1789B70074DA9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F36179F2A1789B70074DA9C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3F3617A62A178A000074DA9C /* HowToSignUpPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToSignUpPage.swift; sourceTree = "<group>"; };
+		3F3617AB2A178FD20074DA9C /* FaceBookButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceBookButton.swift; sourceTree = "<group>"; };
+		3F3617AD2A17900E0074DA9C /* AppleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleButton.swift; sourceTree = "<group>"; };
+		3F3617AF2A1790390074DA9C /* GoogleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleButton.swift; sourceTree = "<group>"; };
+		3F3617B32A17939E0074DA9C /* SignUpEmail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpEmail.swift; sourceTree = "<group>"; };
+		3F3617B52A179C080074DA9C /* PasswordPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordPage.swift; sourceTree = "<group>"; };
+		3F3617B82A179F400074DA9C /* BirthDayPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthDayPage.swift; sourceTree = "<group>"; };
+		3F3617BC2A17A57B0074DA9C /* AgreemintPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgreemintPage.swift; sourceTree = "<group>"; };
+		3F3617BE2A17A9700074DA9C /* CheckboxToggleStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckboxToggleStyle.swift; sourceTree = "<group>"; };
+		3F3617C02A17AC190074DA9C /* ChooseArtistPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseArtistPage.swift; sourceTree = "<group>"; };
+		3F3617C22A17FFBC0074DA9C /* NotificationPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationPage.swift; sourceTree = "<group>"; };
+		3F3617C42A1803F00074DA9C /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		3F3617C72A1819140074DA9C /* ShowImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowImage.swift; sourceTree = "<group>"; };
+		3F3617C92A1821600074DA9C /* MyTapBare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTapBare.swift; sourceTree = "<group>"; };
+		3F3617CB2A1821C80074DA9C /* SearchHomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchHomePage.swift; sourceTree = "<group>"; };
+		3F3617CD2A18264D0074DA9C /* SettingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingPage.swift; sourceTree = "<group>"; };
+		3F3617CF2A182C670074DA9C /* MyMusicPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMusicPage.swift; sourceTree = "<group>"; };
+		3F682E232A19D54400B92CAE /* SearchLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchLabel.swift; sourceTree = "<group>"; };
+		3F682E252A19D9B400B92CAE /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		3F682E272A19DAE500B92CAE /* ShowImageProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowImageProfile.swift; sourceTree = "<group>"; };
+		3F682E292A19E28400B92CAE /* LogInPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInPage.swift; sourceTree = "<group>"; };
+		3F682E342A19EF1900B92CAE /* fisrtSong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = fisrtSong.mp3; path = ../../../../../fisrtSong.mp3; sourceTree = "<group>"; };
+		3F682E352A19EF3700B92CAE /* fisrtSong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = fisrtSong.mp3; path = ../../../../../fisrtSong.mp3; sourceTree = "<group>"; };
+		3FE346C52A18DC3F009E7171 /* MusicPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPage.swift; sourceTree = "<group>"; };
+		3FE346C72A18E629009E7171 /* FirstSongPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstSongPage.swift; sourceTree = "<group>"; };
+		3FE346C92A18E7CF009E7171 /* PlayButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayButton.swift; sourceTree = "<group>"; };
+		3FE346CD2A18F632009E7171 /* MyplayFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyplayFunction.swift; sourceTree = "<group>"; };
+		3FE346D02A18F6E5009E7171 /* MyStopFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyStopFunction.swift; sourceTree = "<group>"; };
+		3FE346D22A19046C009E7171 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3FE346D92A1907EE009E7171 /* LoginFunctons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFunctons.swift; sourceTree = "<group>"; };
+		3FE346DB2A19080C009E7171 /* SignUpFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpFunction.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F3617922A1789B40074DA9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F682E2D2A19E56100B92CAE /* FirebaseAuth in Frameworks */,
+				3F682E2F2A19E56100B92CAE /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F36178C2A1789B40074DA9C = {
+			isa = PBXGroup;
+			children = (
+				3F3617972A1789B50074DA9C /* Spotify */,
+				3F3617962A1789B50074DA9C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F3617962A1789B50074DA9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F3617952A1789B50074DA9C /* Spotify.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F3617972A1789B50074DA9C /* Spotify */ = {
+			isa = PBXGroup;
+			children = (
+				3FE346C72A18E629009E7171 /* FirstSongPage.swift */,
+				3F3617982A1789B50074DA9C /* SpotifyApp.swift */,
+				3F36179A2A1789B50074DA9C /* ContentView.swift */,
+				3F3617A62A178A000074DA9C /* HowToSignUpPage.swift */,
+				3F3617C42A1803F00074DA9C /* HomePage.swift */,
+				3F3617C22A17FFBC0074DA9C /* NotificationPage.swift */,
+				3F3617C02A17AC190074DA9C /* ChooseArtistPage.swift */,
+				3F3617CD2A18264D0074DA9C /* SettingPage.swift */,
+				3F3617CF2A182C670074DA9C /* MyMusicPage.swift */,
+				3FE346C52A18DC3F009E7171 /* MusicPage.swift */,
+				3F3617CB2A1821C80074DA9C /* SearchHomePage.swift */,
+				3F3617C92A1821600074DA9C /* MyTapBare.swift */,
+				3FE346CF2A18F6BB009E7171 /* SomeFunctions */,
+				3F3617C62A1818D10074DA9C /* ToShowTheImages */,
+				3F3617B72A179C0E0074DA9C /* SignUpAndLogInPages */,
+				3F3617A82A178EBA0074DA9C /* Buttons */,
+				3F36179C2A1789B70074DA9C /* Assets.xcassets */,
+				3F36179E2A1789B70074DA9C /* Preview Content */,
+			);
+			path = Spotify;
+			sourceTree = "<group>";
+		};
+		3F36179E2A1789B70074DA9C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3F36179F2A1789B70074DA9C /* Preview Assets.xcassets */,
+				3FE346D22A19046C009E7171 /* GoogleService-Info.plist */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3F3617A82A178EBA0074DA9C /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				3F682E352A19EF3700B92CAE /* fisrtSong.mp3 */,
+				3F3617AB2A178FD20074DA9C /* FaceBookButton.swift */,
+				3F682E252A19D9B400B92CAE /* ImagePicker.swift */,
+				3F682E272A19DAE500B92CAE /* ShowImageProfile.swift */,
+				3F682E232A19D54400B92CAE /* SearchLabel.swift */,
+				3F3617AD2A17900E0074DA9C /* AppleButton.swift */,
+				3F3617AF2A1790390074DA9C /* GoogleButton.swift */,
+				3FE346C92A18E7CF009E7171 /* PlayButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		3F3617B72A179C0E0074DA9C /* SignUpAndLogInPages */ = {
+			isa = PBXGroup;
+			children = (
+				3F682E342A19EF1900B92CAE /* fisrtSong.mp3 */,
+				3F3617B52A179C080074DA9C /* PasswordPage.swift */,
+				3F3617B32A17939E0074DA9C /* SignUpEmail.swift */,
+				3F3617B82A179F400074DA9C /* BirthDayPage.swift */,
+				3F682E292A19E28400B92CAE /* LogInPage.swift */,
+				3F3617BC2A17A57B0074DA9C /* AgreemintPage.swift */,
+				3F3617BE2A17A9700074DA9C /* CheckboxToggleStyle.swift */,
+			);
+			path = SignUpAndLogInPages;
+			sourceTree = "<group>";
+		};
+		3F3617C62A1818D10074DA9C /* ToShowTheImages */ = {
+			isa = PBXGroup;
+			children = (
+				3F3617C72A1819140074DA9C /* ShowImage.swift */,
+			);
+			path = ToShowTheImages;
+			sourceTree = "<group>";
+		};
+		3FE346CF2A18F6BB009E7171 /* SomeFunctions */ = {
+			isa = PBXGroup;
+			children = (
+				3FE346CD2A18F632009E7171 /* MyplayFunction.swift */,
+				3FE346D02A18F6E5009E7171 /* MyStopFunction.swift */,
+				3FE346D92A1907EE009E7171 /* LoginFunctons.swift */,
+				3FE346DB2A19080C009E7171 /* SignUpFunction.swift */,
+			);
+			path = SomeFunctions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F3617942A1789B40074DA9C /* Spotify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F3617A32A1789B70074DA9C /* Build configuration list for PBXNativeTarget "Spotify" */;
+			buildPhases = (
+				3F3617912A1789B40074DA9C /* Sources */,
+				3F3617922A1789B40074DA9C /* Frameworks */,
+				3F3617932A1789B40074DA9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Spotify;
+			packageProductDependencies = (
+				3F682E2C2A19E56100B92CAE /* FirebaseAuth */,
+				3F682E2E2A19E56100B92CAE /* FirebaseFirestore */,
+			);
+			productName = Spotify;
+			productReference = 3F3617952A1789B50074DA9C /* Spotify.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F36178D2A1789B40074DA9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					3F3617942A1789B40074DA9C = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 3F3617902A1789B40074DA9C /* Build configuration list for PBXProject "Spotify" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F36178C2A1789B40074DA9C;
+			packageReferences = (
+				3F682E2B2A19E56100B92CAE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 3F3617962A1789B50074DA9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F3617942A1789B40074DA9C /* Spotify */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F3617932A1789B40074DA9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F3617A02A1789B70074DA9C /* Preview Assets.xcassets in Resources */,
+				3F36179D2A1789B70074DA9C /* Assets.xcassets in Resources */,
+				3FE346D32A19046C009E7171 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F3617912A1789B40074DA9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F36179B2A1789B50074DA9C /* ContentView.swift in Sources */,
+				3F3617C82A1819140074DA9C /* ShowImage.swift in Sources */,
+				3F3617C32A17FFBC0074DA9C /* NotificationPage.swift in Sources */,
+				3FE346CE2A18F632009E7171 /* MyplayFunction.swift in Sources */,
+				3F3617AC2A178FD20074DA9C /* FaceBookButton.swift in Sources */,
+				3F3617C12A17AC190074DA9C /* ChooseArtistPage.swift in Sources */,
+				3FE346CA2A18E7CF009E7171 /* PlayButton.swift in Sources */,
+				3FE346DC2A19080C009E7171 /* SignUpFunction.swift in Sources */,
+				3F3617D02A182C680074DA9C /* MyMusicPage.swift in Sources */,
+				3F3617B92A179F400074DA9C /* BirthDayPage.swift in Sources */,
+				3F682E2A2A19E28400B92CAE /* LogInPage.swift in Sources */,
+				3FE346D12A18F6E5009E7171 /* MyStopFunction.swift in Sources */,
+				3F3617C52A1803F00074DA9C /* HomePage.swift in Sources */,
+				3F3617CC2A1821C80074DA9C /* SearchHomePage.swift in Sources */,
+				3F3617BF2A17A9700074DA9C /* CheckboxToggleStyle.swift in Sources */,
+				3F3617B42A17939E0074DA9C /* SignUpEmail.swift in Sources */,
+				3FE346DA2A1907EE009E7171 /* LoginFunctons.swift in Sources */,
+				3F3617992A1789B50074DA9C /* SpotifyApp.swift in Sources */,
+				3F682E262A19D9B400B92CAE /* ImagePicker.swift in Sources */,
+				3FE346C62A18DC3F009E7171 /* MusicPage.swift in Sources */,
+				3F682E242A19D54400B92CAE /* SearchLabel.swift in Sources */,
+				3F3617CE2A18264D0074DA9C /* SettingPage.swift in Sources */,
+				3F682E282A19DAE500B92CAE /* ShowImageProfile.swift in Sources */,
+				3F3617A72A178A000074DA9C /* HowToSignUpPage.swift in Sources */,
+				3FE346C82A18E629009E7171 /* FirstSongPage.swift in Sources */,
+				3F3617B62A179C080074DA9C /* PasswordPage.swift in Sources */,
+				3F3617BD2A17A57B0074DA9C /* AgreemintPage.swift in Sources */,
+				3F3617B02A1790390074DA9C /* GoogleButton.swift in Sources */,
+				3F3617AE2A17900E0074DA9C /* AppleButton.swift in Sources */,
+				3F3617CA2A1821600074DA9C /* MyTapBare.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3F3617A12A1789B70074DA9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F3617A22A1789B70074DA9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F3617A42A1789B70074DA9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Spotify/Preview Content\"";
+				DEVELOPMENT_TEAM = A84FHT6CG5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-meeeaaawww.Spotify";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F3617A52A1789B70074DA9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Spotify/Preview Content\"";
+				DEVELOPMENT_TEAM = A84FHT6CG5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-meeeaaawww.Spotify";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F3617902A1789B40074DA9C /* Build configuration list for PBXProject "Spotify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F3617A12A1789B70074DA9C /* Debug */,
+				3F3617A22A1789B70074DA9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F3617A32A1789B70074DA9C /* Build configuration list for PBXNativeTarget "Spotify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F3617A42A1789B70074DA9C /* Debug */,
+				3F3617A52A1789B70074DA9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3F682E2B2A19E56100B92CAE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3F682E2C2A19E56100B92CAE /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3F682E2B2A19E56100B92CAE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		3F682E2E2A19E56100B92CAE /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3F682E2B2A19E56100B92CAE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 3F36178D2A1789B40074DA9C /* Project object */;
+}
