@@ -6,6 +6,7 @@ struct HomePage: View {
   var body: some View {
     ZStack{
       Color.black
+      
         .ignoresSafeArea()
       VStack{
         ScrollView{
