@@ -79,7 +79,6 @@ struct ChooseArtistPage: View {
                 Text("Audioslave")
               }
             }
-
           }
           NavigationLink("Next" , destination: NotificationPage())
             .frame(maxWidth: 100 , maxHeight: 20)
