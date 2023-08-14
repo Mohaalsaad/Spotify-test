@@ -2,8 +2,6 @@
 import SwiftUI
 import FirebaseCore
 
- 
-
 struct SignUpEmail: View {
 
   @State  var email: String = ""
